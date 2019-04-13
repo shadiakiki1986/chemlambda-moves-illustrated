@@ -1,2 +1,8 @@
 set -ex
-install-dot-kernel
+
+# https://github.com/laixintao/jupyter-dot-kernel/issues/3#issuecomment-429787522
+# install-dot-kernel
+
+git clone --depth 1 https://github.com/laixintao/jupyter-dot-kernel.git
+cd jupyter-dot-kernel
+jupyter kernelspec install dot_kernel_spec --user
