@@ -1,5 +1,7 @@
 [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/shadiakiki1986/chemlambda-notebooks/master)
 
+Chemlambda is: Artificial chemistry based on graph rewrites
+
 Repository of jupyter notebooks illustrating chemlambda rewrites with dot files and graphs
 
 Click on the notebook files to view them in the browser.
@@ -13,3 +15,4 @@ The jupyter dot kernel is https://github.com/laixintao/jupyter-dot-kernel/
 More info on chemlambda at
 
 - https://github.com/chorasimilarity/chemlambda-gui/
+- https://github.com/shadiakiki1986/chemlambda-js
