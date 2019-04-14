@@ -8,3 +8,4 @@ cd jupyter-dot-kernel
 jupyter kernelspec install dot_kernel_spec --user
 
 rm -rf jupyter-dot-kernel
+rm -rf binder
