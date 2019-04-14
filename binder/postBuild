@@ -6,6 +6,7 @@ set -ex
 git clone --depth 1 https://github.com/laixintao/jupyter-dot-kernel.git
 cd jupyter-dot-kernel
 jupyter kernelspec install dot_kernel_spec --user
+cd - 
 
 rm -rf jupyter-dot-kernel
 rm -rf binder
